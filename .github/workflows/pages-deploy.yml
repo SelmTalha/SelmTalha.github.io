@@ -26,6 +26,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+  
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -58,6 +60,10 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
+
+      - name: Run HTML Proofer
+        run: bundle exec htmlproofer _site --allow-hash-href --disable-external --ignore-missing-alt --ignore-urls "/about/,/archives/,/categories/,/posts/blackburne-izinden/"
+
 
   deploy:
     environment:

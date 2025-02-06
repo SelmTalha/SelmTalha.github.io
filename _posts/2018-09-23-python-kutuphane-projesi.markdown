@@ -3,7 +3,7 @@ title: "📚 Kütüphane Projesi"
 layout: post
 date: 2018-09-23 22:10
 tag: [kütüphane projesi, selim talha çağlar , python , python programlama , mysql , sqllite3 , vize ,database , proje]
-headerImage: true
+headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "Vize Proje Ödevim: Kütüphane projesi"
@@ -64,8 +64,6 @@ tasarlanmıştır.
 #### d)Veri tabanı Bağlantıları ve İşlemler: 
 - Program ilk başta Sqlite üzerinde denenmiş daha 
 sonrasında mysql bağlantısına geçiş yapılmıştır.
-
-![Screenshot](/assets/images/projects/1/kutuphaneproject.png)
 
 #### Coder: Selim Talha Çağlar
 

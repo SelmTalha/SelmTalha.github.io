@@ -3,7 +3,7 @@ title: "🎮 SelTCraft Tanıtımı"
 layout: post
 date: 2018-08-09 22:22
 tag: [seltcraft, selim talha çağlar , 2d platform oyunları , minecraft , game maker , 2d platformer game ]
-headerImage: true
+headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "SelTCraft Oyun Tanıtımı"
