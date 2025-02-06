@@ -64,6 +64,10 @@ jobs:
       - name: Run HTML Proofer
         run: bundle exec htmlproofer _site --allow-hash-href --disable-external --ignore-missing-alt --ignore-urls "/about/,/archives/,/categories/,/posts/blackburne-izinden/"
 
+      - name: Check HTML
+        run: |
+          bundle exec htmlproofer ./_site --disable-external --allow-hash-href --assume-extension --ignore-urls "/localhost:4000/"
+
 
   deploy:
     environment:
