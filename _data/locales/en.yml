@@ -3,7 +3,7 @@
 # ----- Commons label -----
 
 layout:
-  post: Post
+  post: GÖnderi
   category: Kategori
   tag: Etiket
 
@@ -11,21 +11,21 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Anasayfa
-  categories: Bloglarım
+  categories: Kategoriler
   tags: Etiketler
   archives: Arşivler
   about: Hakkımda
 
 # the text displayed in the search bar & search results
 search:
-  hint: Arama Yap
-  cancel: Cancel
-  no_results: UPPS! Arama Sonucu Bulunamadı.
+  hint: Ara...
+  cancel: İptal
+  no_results: Hopp! Öyle birşey bulamadım.
 
 panel:
   lastmod: Son Güncellenenler
   trending_tags: Trend Etiketler
-  toc: İçerikler
+  toc: İçindekiler
 
 copyright:
   # Shown at the bottom of the post
@@ -37,17 +37,17 @@ copyright:
   # Displayed in the footer
   brief: Some rights reserved.
   verbose: >-
-    Except where otherwise noted, the blog posts on this site are licensed
-    under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
+    Aksi belirtilmediği sürece, bu sitedeki gönderiler Creative Commons Atıf 4.0 Uluslararası (CC BY 4.0) Lisansı altındadır.
+    Kısaca sayfa linkini vererek değiştirebilir / paylaşabilirsiniz.
 
 meta: Using the :THEME theme for :PLATFORM.
 
 not_found:
-  statement: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
+  statement: Üzgünüz, bu linki yanlış yerleştirdik veya var olmayan bir şeye işaret ediyor.
 
 notification:
-  update_found: A new version of content is available.
-  update: Update
+  update_found: İçeriğin yeni bir sürümü mevcut.
+  update: Güncelle
 
 # ----- Posts related labels -----
 
@@ -87,5 +87,5 @@ categories:
     singular: Kategori
     plural: Kategoriler
   post_measure:
-    singular: post
-    plural: postlar
+    singular: Gönderi
+    plural: Gönderilerr
