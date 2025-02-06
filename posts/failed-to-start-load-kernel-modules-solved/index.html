@@ -30,23 +30,28 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="STCDIGITAL" />
+<meta property="og:title" content="Failed to Start Load Kernel Modules Hatasının Çözümü" />
+<meta name="author" content="Selim Talha Çağlar" />
 <meta property="og:locale" content="tr" />
-<meta name="description" content="Yazılım geliştiricisi, programcı ve fotoğrafçı olarak projelerimi ve çalışmalarımı paylaştığım minimalist, etkileyici bir portfolyo ve blog sayfası. 🚀📸💻" />
-<meta property="og:description" content="Yazılım geliştiricisi, programcı ve fotoğrafçı olarak projelerimi ve çalışmalarımı paylaştığım minimalist, etkileyici bir portfolyo ve blog sayfası. 🚀📸💻" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<meta name="description" content="Linux’ta Failed to Start Load Kernel Modules Hatasının Çözümü" />
+<meta property="og:description" content="Linux’ta Failed to Start Load Kernel Modules Hatasının Çözümü" />
+<link rel="canonical" href="http://localhost:4000/posts/failed-to-start-load-kernel-modules-solved/" />
+<meta property="og:url" content="http://localhost:4000/posts/failed-to-start-load-kernel-modules-solved/" />
 <meta property="og:site_name" content="STCDIGITAL" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="STCDIGITAL" />
+<meta property="og:image" content="http://localhost:4000/assets/blog/terminalbackls.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-05-29T22:37:00+03:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/blog/terminalbackls.jpg" />
+<meta property="twitter:title" content="Failed to Start Load Kernel Modules Hatasının Çözümü" />
 <meta name="twitter:site" content="@twitter_username" />
+<meta name="twitter:creator" content="@Selim Talha Çağlar" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Yazılım geliştiricisi, programcı ve fotoğrafçı olarak projelerimi ve çalışmalarımı paylaştığım minimalist, etkileyici bir portfolyo ve blog sayfası. 🚀📸💻","headline":"STCDIGITAL","name":"Selim Talha Çağlar","sameAs":["https://twitter.com/username","https://github.com/username"],"url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Selim Talha Çağlar","url":"https://instagram.com/selimtlh"},"dateModified":"2017-05-29T22:37:00+03:00","datePublished":"2017-05-29T22:37:00+03:00","description":"Linux’ta Failed to Start Load Kernel Modules Hatasının Çözümü","headline":"Failed to Start Load Kernel Modules Hatasının Çözümü","image":"http://localhost:4000/assets/blog/terminalbackls.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/failed-to-start-load-kernel-modules-solved/"},"url":"http://localhost:4000/posts/failed-to-start-load-kernel-modules-solved/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>STCDIGITAL
+  <title>Failed to Start Load Kernel Modules Hatasının Çözümü | STCDIGITAL
   </title>
 
   <!--
@@ -110,11 +115,16 @@
   <!-- 3rd-party Dependencies -->
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.32.2/dist/tocbot.min.css">
+  
 
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
   
 
+  
+    <!-- Image Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
   <!-- Scripts -->
@@ -133,6 +143,9 @@
   
 
   
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
 
 
 
@@ -190,9 +203,37 @@
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js,npm/mermaid@11.4.0/dist/mermaid.min.js"></script>
 
 
 
@@ -200,11 +241,20 @@
 
 
 
-<script defer src="/assets/js/dist/home.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
+
+  <!-- MathJax -->
+  <script async src="/assets/js/data/mathjax.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
 
 
 <!-- Pageviews -->
+
+  
+
+  
 
 
 
@@ -230,7 +280,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a href="/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>ANASAYFA</span>
@@ -509,9 +559,23 @@
       
 
       
-        <!-- index page -->
-        <span>Anasayfa</span>
+        
+          
+            <span>
+              <a href="/">Anasayfa</a>
+            </span>
 
+          
+        
+          
+        
+          
+            
+              <span>Failed to Start Load Kernel Modules Hatasının Çözümü</span>
+            
+
+          
+        
       
     </nav>
     <!-- endof #breadcrumb -->
@@ -521,7 +585,7 @@
     </button>
 
     <div id="topbar-title">
-      STCDIGITAL
+      Gönderi
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link">
@@ -613,48 +677,13 @@
 
       
     
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
       
 
       
       
+      
 
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
+      
     
       
 
@@ -689,366 +718,16 @@
     
 
     
-      <!-- create the image wrapper -->
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
       
 
       
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
+        <!-- create the image wrapper -->
+        
 
+        
+        
       
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
     
 
     <!-- combine -->
@@ -1071,6 +750,60 @@
   
   
 
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
   
 
   
@@ -1101,553 +834,19 @@
 
 
 
-<!-- Get pinned posts on current page -->
 
-
-
-
-
-
-<!-- Get normal posts on current page -->
-
-
-
-
-
-<div id="post-list" class="flex-grow-1 px-xl-1">
-  
-    <article class="card-wrapper card">
-      <a href="/posts/buyuk-ustalarla-satranc-deneyimlerim/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/selimtalhacaglar_chess.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Büyük Ustalarla Satranç Deneyimlerim</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Pandemi Döneminde büyük ustalarla oynadığım oyunlar ve analizlerim</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1619707020"
-  data-df="ll"
-  
->
-  Apr 29, 2021
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Satranç
-                  </span>
-                
-              </div>
-
-              
-                <div class="pin ms-1">
-                  <i class="fas fa-thumbtack fa-fw"></i>
-                  <span></span>
-                </div>
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/blackburne-izinden/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/selimtalhacaglar_blackburne.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Blackburne'ün izinden</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Oynarken keyif aldığım fedalı oyunlarım  vol-1 ...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1587934860"
-  data-df="ll"
-  
->
-  Apr 27, 2020
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Satranç
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/satrancta-olasilik/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/pawnrespect2.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Satrançta olasılık</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Satranç&#39;ta her hamle başına nasıl olasılık hesabı yapılıyor ? ... Shannon Sayısı nedir ?</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1582966620"
-  data-df="ll"
-  
->
-  Feb 29, 2020
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Satranç
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/blackburne-silin-gambiti/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/blackburne.png" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Blackburne Şilin Gambiti</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Joseph Henry Blackburne, 10 Aralık 1841’de Manchester, İngiltere’de doğdu. Genç yaşlarda dama oyununda ustalaştı, ancak 1858’de Paul Morphy’nin Avrupa’daki başarılarından etkilenerek satranca yönel...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1582734180"
-  data-df="ll"
-  
->
-  Feb 26, 2020
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Satranç
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/linux-sources-list-d-hatasi/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/terminalbackls3.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Linux /etc/apt/sources.list.d/ Hatasının Kesin Çözümü</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Linux /etc/apt/sources.list.d/ hatası kesin çözümü</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1527553620"
-  data-df="ll"
-  
->
-  May 29, 2018
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Teknoloji,
-                      Linux
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/terminal-yazi-rengi-degistirme/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/terminalbackls6.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Terminal Yazı Rengi Değiştirme -!</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>How to turn of background color with ls</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1504950300"
-  data-df="ll"
-  
->
-  Sep  9, 2017
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Teknoloji,
-                      Linux
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/linux-dosya-sistemi/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/terminalbackls2.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Linux Dosya Sistemi</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Linux Dosya Sistemi hakkında kısa bilgilendirme ..</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1503563880"
-  data-df="ll"
-  
->
-  Aug 24, 2017
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Teknoloji,
-                      Linux
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/failed-to-start-load-kernel-modules-solved/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/terminalbackls.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Failed to Start Load Kernel Modules Hatasının Çözümü</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Linux&#39;ta Failed to Start Load Kernel Modules Hatasının Çözümü</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
+<article class="px-1" data-toc="true">
+  <header>
+    <h1 data-toc-skip>Failed to Start Load Kernel Modules Hatasının Çözümü</h1>
+    
+      <p class="post-desc fw-light mb-4">Linux'ta Failed to Start Load Kernel Modules Hatasının Çözümü</p>
+    
+
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Yayımlandı
+        <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -1660,34 +859,381 @@
   data-ts="1496086620"
   data-df="ll"
   
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
 >
   May 29, 2017
 </time>
 
+      </span>
 
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Satranç
-                  </span>
-                
-              </div>
+      <!-- lastmod date -->
+      
 
+      
+        
+        
+        
+
+        
+
+        <div class="mt-3 mb-3">
+          <a href="/assets/blog/terminalbackls.jpg" class="popup img-link preview-img shimmer"><img src="/assets/blog/terminalbackls.jpg"  alt="Preview Image" width="1200" height="630"  loading="lazy"></a></div>
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
+
+          Tarafından
+
+          <em>
+            
               
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
+                <a href="https://instagram.com/selimtlh">Selim Talha Çağlar</a>
+                
+              
+            
+          </em>
+        </span>
+
+        <div>
+          <!-- pageviews -->
+          
+
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
+
+
+
+<!-- words per minute -->
+
+
+
+
+
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="462 kelimeler"
+>
+  <em>2 dakika</em> oku</span>
+
         </div>
-      </a>
-    </article>
+      </div>
+    </div>
+  </header>
+
   
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">Failed to Start Load Kernel Modules Hatasının Çözümü</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">İçindekiler</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">Failed to Start Load Kernel Modules Hatasının Çözümü</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
+
+  <div class="content">
+    <h1 id="linuxta-failed-to-start-load-kernel-modules-hatasının-çözümü">Linux’ta “Failed to Start Load Kernel Modules” Hatasının Çözümü</h1>
+
+<h2 id="giriş"><span class="me-2">Giriş</span><a href="#giriş" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Linux, esnekliği ve güçlü hata ayıklama araçlarıyla bilinir. Ancak, bazı hatalar sistem yöneticileri veya kullanıcılar için hala karmaşık ve az rastlanır olabilir. Bu yazıda, Linux sistemlerinde nadiren karşılaşılan ve genellikle çözümü için yeterli bilgi bulunmayan bir hata olan <strong>“Failed to Start Load Kernel Modules”</strong> hatasını ele alacağız. Bu hata, genellikle kernel modüllerinin yüklenememesi veya düzgün çalışmaması nedeniyle ortaya çıkar.</p>
+
+<h2 id="hata-tanımı"><span class="me-2">Hata Tanımı</span><a href="#hata-tanımı" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p><strong>“Failed to Start Load Kernel Modules”</strong> hatası, systemd’nin kernel modüllerini yüklerken bir sorunla karşılaştığında ortaya çıkar. Bu hata, genellikle aşağıdaki durumlarda görülür:</p>
+
+<ul>
+  <li>Donanım değişikliği veya yeni bir donanım bileşeninin eklenmesi.</li>
+  <li>Kernel veya kernel modüllerinin hatalı güncellenmesi.</li>
+  <li>Bozuk veya eksik modüller.</li>
+</ul>
+
+<h2 id="hata-tespiti"><span class="me-2">Hata Tespiti</span><a href="#hata-tespiti" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ol>
+  <li>
+    <p><strong>Journalctl Logları İnceleme:</strong></p>
+
+    <p>Hata tespiti için, systemd journal’ını kontrol etmek faydalıdır. Terminalde aşağıdaki komutla kernel modülleriyle ilgili logları görüntüleyebilirsiniz:</p>
+
+    <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Kopyalandı!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>journalctl <span class="nt">-xe</span> | <span class="nb">grep </span>kernel
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li>
+    <p><strong>Modül Durumunu Kontrol Etme: Kernel modüllerinin durumunu kontrol etmek için şu komutu kullanabilirsiniz:</strong></p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Kopyalandı!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre> lsmod
+</pre></td></tr></tbody></table></code></div>    </div>
+    <p>Bu komut, mevcut kernel modüllerini listeler ve yüklü olanları gösterir. Hatalı veya eksik modülleri tespit etmek için bu listeyi kontrol etmek faydalıdır.</p>
+  </li>
+</ol>
+
+<h2 id="hata-çözümü"><span class="me-2">Hata Çözümü</span><a href="#hata-çözümü" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Bu hatanın çözümüne yönelik birkaç farklı yaklaşım vardır. Aşağıda, yaygın çözüm yollarını detaylı bir şekilde açıklayacağım:</p>
+
+<ol>
+  <li><strong>Kernel Modüllerinin Yüklenmesini Manuel Olarak Başlatma</strong></li>
+</ol>
+
+<p>Eğer kernel modülleri otomatik olarak yüklenemiyorsa, modülleri manuel olarak yüklemeyi deneyebilirsiniz. Aşağıdaki komutla belirli bir modülü yüklemeyi deneyebilirsiniz:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Kopyalandı!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>```bash
+sudo modprobe &lt;modül_adı&gt;
+```
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>Örneğin, “nvme” modülünü yüklemek için:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Kopyalandı!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>```bash
+sudo modprobe nvme
+```
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>Modülün doğru yüklendiğini doğrulamak için lsmod komutunu tekrar çalıştırabilirsiniz.</p>
+
+<ol>
+  <li><strong>Modüllerin Yeniden Yüklenmesi</strong></li>
+</ol>
+
+<p>Kernel modüllerinin doğru şekilde yüklenmemesi durumunda, modülleri sıfırlayarak yeniden yüklemeyi deneyebilirsiniz. Aşağıdaki adımları izleyebilirsiniz:</p>
+
+<p><strong>1- Kernel modüllerini kaldırmak için şu komutu çalıştırın:</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Kopyalandı!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>```bash
+sudo rmmod &lt;modül_adı&gt;
+```
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>2-Ardından, modülü tekrar yükleyin:</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Kopyalandı!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>```bash
+sudo modprobe &lt;modül_adı&gt;
+```
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>Bu işlem, eksik veya hatalı yüklenmiş modülleri sıfırlayarak tekrar yüklemenize olanak sağlar.</p>
+
+<p><strong>3. Modül Bağlantılarını Yeniden Yapılandırma</strong></p>
+
+<p>Bazı durumlarda, kernel modüllerinin doğru yapılandırılmadığı durumlarla karşılaşılabilir. Modül yapılandırmalarını yeniden oluşturmak için şu komutları çalıştırabilirsiniz:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Kopyalandı!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>```bash
+sudo depmod -a
+```
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>Bu komut, sistemdeki modülleri yeniden yapılandırır ve modül bağımlılıklarını düzenler.</p>
+
+<p><strong>4. Kernel Güncellemesi ve Yeniden Başlatma</strong></p>
+
+<p>Eğer kernel modüllerinin yüklenememesine neden olan bir kernel güncellemesi varsa, eski kernel sürümüne geri dönmeyi deneyebilirsiniz. Aşağıdaki komutla mevcut kernel sürümünü kontrol edebilirsiniz:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Kopyalandı!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>```bash
+uname -r
+```
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>Eğer eski bir kernel sürümüne dönmek isterseniz, aşağıdaki komutu kullanarak kernel sürümünü seçebilirsiniz:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Kopyalandı!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>```bash
+sudo grub-reboot &lt;kernel_sürümü&gt;
+```
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>**Kernel güncellemeleriyle ilgili olası sorunları önlemek için, apt veya yum gibi paket yöneticilerini kullanarak kernel güncellemelerini de kontrol edebilirsiniz.</strong>**</p>
+
+<p><strong><em>Linux’taki “Failed to Start Load Kernel Modules” hatası, genellikle kernel modüllerinin düzgün yüklenememesi nedeniyle ortaya çıkar. Bu yazıda, hata çözümü için kullanılan yöntemleri ve detaylı çözüm önerilerini ele aldık. Hata, çoğunlukla kernel veya donanım güncellemeleriyle ilişkilidir ve doğru adımlar takip edilerek çözülebilir.</em></strong></p>
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/categories/satran%C3%A7/">Satranç</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/tags/fix-kernel-failed-to-start/"
+            class="post-tag no-text-decoration"
+          >fix kernel failed to start</a>
+        
+          <a
+            href="/tags/failed-start/"
+            class="post-tag no-text-decoration"
+          >failed start</a>
+        
+          <a
+            href="/tags/failed-to-start-load-kernel-modules/"
+            class="post-tag no-text-decoration"
+          >Failed to Start Load Kernel Modules</a>
+        
+          <a
+            href="/tags/kernel-modules/"
+            class="post-tag no-text-decoration"
+          >kernel modules</a>
+        
+      </div>
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          Bu yazı Selim Talha Çağlar tarafından 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         ile lisanslanmıştır.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Paylaş</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+
+      
+
+      <a href="https://twitter.com/intent/tweet?text=Failed%20to%20Start%20Load%20Kernel%20Modules%20Hatas%C4%B1n%C4%B1n%20%C3%87%C3%B6z%C3%BCm%C3%BC%20-%20STCDIGITAL&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ffailed-to-start-load-kernel-modules-solved%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Failed%20to%20Start%20Load%20Kernel%20Modules%20Hatas%C4%B1n%C4%B1n%20%C3%87%C3%B6z%C3%BCm%C3%BC%20-%20STCDIGITAL&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ffailed-to-start-load-kernel-modules-solved%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
+      </a>
+    
+
+      
+
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ffailed-to-start-load-kernel-modules-solved%2F&text=Failed%20to%20Start%20Load%20Kernel%20Modules%20Hatas%C4%B1n%C4%B1n%20%C3%87%C3%B6z%C3%BCm%C3%BC%20-%20STCDIGITAL" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ffailed-to-start-load-kernel-modules-solved%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin" aria-label="Linkedin">
+        <i class="fa-fw fab fa-linkedin"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ffailed-to-start-load-kernel-modules-solved%2F&title=Failed%20to%20Start%20Load%20Kernel%20Modules%20Hatas%C4%B1n%C4%B1n%20%C3%87%C3%B6z%C3%BCm%C3%BC%20-%20STCDIGITAL" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Reddit" aria-label="Reddit">
+        <i class="fa-fw fa-brands fa-square-reddit"></i>
+      </a>
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Bağlantıyı kopyala"
+      data-title-succeed="Bağlantı kopyalama başarılı!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
 </div>
-<!-- #post-list -->
 
-
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
+</article>
 
 
             
@@ -2910,12 +2456,234 @@
             </div>
 
             
+              
+              
+
+
+
+
+
+
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">İçindekiler</h2>
+    <nav id="toc"></nav>
+  </section>
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">Daha Fazla Okuma</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/buyuk-ustalarla-satranc-deneyimlerim/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1619707020"
+  data-df="ll"
+  
+>
+  Apr 29, 2021
+</time>
+
+              <h4 class="pt-0 my-2">Büyük Ustalarla Satranç Deneyimlerim</h4>
+              <div class="text-muted">
+                <p>Pandemi Döneminde büyük ustalarla oynadığım oyunlar ve analizlerim</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/blackburne-izinden/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1587934860"
+  data-df="ll"
+  
+>
+  Apr 27, 2020
+</time>
+
+              <h4 class="pt-0 my-2">Blackburne'ün izinden</h4>
+              <div class="text-muted">
+                <p>Oynarken keyif aldığım fedalı oyunlarım  vol-1 ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/satrancta-olasilik/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1582966620"
+  data-df="ll"
+  
+>
+  Feb 29, 2020
+</time>
+
+              <h4 class="pt-0 my-2">Satrançta olasılık</h4>
+              <div class="text-muted">
+                <p>Satranç&#39;ta her hamle başına nasıl olasılık hesabı yapılıyor ? ... Shannon Sayısı nedir ?</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Geri">
+      <p>-</p>
+    </div>
+  
+
+  
+    <a
+      href="/posts/linux-dosya-sistemi/"
+      class="btn btn-outline-primary"
+      aria-label="İleri"
+    >
+      <p>Linux Dosya Sistemi</p>
+    </a>
+  
+</nav>
+
             
 
             <!-- The Footer -->
@@ -4150,6 +3918,11 @@
     
 
     <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
 
     
 

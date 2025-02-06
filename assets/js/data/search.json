@@ -1,20 +1,84 @@
----
-layout: compress
-swcache: true
----
-
 [
-  {% for post in site.posts %}
-    {%- capture description -%}
-      {% include post-description.html %}
-    {%- endcapture -%}
   {
-    "title": {{ post.title | jsonify }},
-    "url": {{ post.url | relative_url | jsonify }},
-    "categories": {{ post.categories | join: ', ' | jsonify }},
-    "tags": {{ post.tags | join: ', ' | jsonify }},
-    "date": "{{ post.date }}",
-    "content": "{{ description }}"
-  }{% unless forloop.last %},{% endunless %}
-  {% endfor %}
+    "title": "Büyük Ustalarla Satranç Deneyimlerim",
+    "url": "/posts/buyuk-ustalarla-satranc-deneyimlerim/",
+    "categories": "Satranç",
+    "tags": "satranç, büyükustalarla oyunlarım, selim talha çağlar oyunları, mortnoire, pandemi",
+    "date": "2021-04-29 17:37:00 +0300",
+    "content": "Pandemi Döneminde büyük ustalarla oynadığım oyunlar ve analizlerim"
+  },
+  {
+    "title": "Blackburne'ün izinden",
+    "url": "/posts/blackburne-izinden/",
+    "categories": "Satranç",
+    "tags": "joseph henry blackburne, feda, satranç, chess, selim talha çağlar",
+    "date": "2020-04-27 00:01:00 +0300",
+    "content": "Oynarken keyif aldığım fedalı oyunlarım  vol-1 ..."
+  },
+  {
+    "title": "Satrançta olasılık",
+    "url": "/posts/satrancta-olasilik/",
+    "categories": "Satranç",
+    "tags": "satranç, chess, olasılık, person of interest, shannon sayısı, selim talha çağlar",
+    "date": "2020-02-29 11:57:00 +0300",
+    "content": "Satranç&#39;ta her hamle başına nasıl olasılık hesabı yapılıyor ? ... Shannon Sayısı nedir ?"
+  },
+  {
+    "title": "Blackburne Şilin Gambiti",
+    "url": "/posts/blackburne-silin-gambiti/",
+    "categories": "Satranç",
+    "tags": "joseph henry blackburne, kara ölüm, şilin gambiti, satranç, chess, chess master, chess history, büyük usta, mindsport, gameofkings",
+    "date": "2020-02-26 19:23:00 +0300",
+    "content": "Joseph Henry Blackburne, 10 Aralık 1841’de Manchester, İngiltere’de doğdu. Genç yaşlarda dama oyununda ustalaştı, ancak 1858’de Paul Morphy’nin Avrupa’daki başarılarından etkilenerek satranca yönel..."
+  },
+  {
+    "title": "📚 Kütüphane Projesi",
+    "url": "/posts/python-kutuphane-projesi/",
+    "categories": "Projelerim",
+    "tags": "kütüphane projesi, selim talha çağlar, python, python programlama, mysql, sqllite3, vize, database, proje",
+    "date": "2018-09-23 22:10:00 +0300",
+    "content": "Vize Proje Ödevim: Kütüphane projesi"
+  },
+  {
+    "title": "🎮 SelTCraft Tanıtımı",
+    "url": "/posts/seltcraft-tanitim/",
+    "categories": "Projelerim",
+    "tags": "seltcraft, selim talha çağlar, 2d platform oyunları, minecraft, game maker, 2d platformer game",
+    "date": "2018-08-09 22:22:00 +0300",
+    "content": "SelTCraft Oyun Tanıtımı"
+  },
+  {
+    "title": "Linux /etc/apt/sources.list.d/ Hatasının Kesin Çözümü",
+    "url": "/posts/linux-sources-list-d-hatasi/",
+    "categories": "Teknoloji, Linux",
+    "tags": "linux, terminal hataları, terminal, sources.list.d/ hatası",
+    "date": "2018-05-29 03:27:00 +0300",
+    "content": "Linux /etc/apt/sources.list.d/ hatası kesin çözümü"
+  },
+  {
+    "title": "Terminal Yazı Rengi Değiştirme -!",
+    "url": "/posts/terminal-yazi-rengi-degistirme/",
+    "categories": "Teknoloji, Linux",
+    "tags": ".bashrc nedir, .bashrc, terminal yazı rengi, bash, betik dilleri, terminal ls background color, terminal yazı arkaplanı kaldırma, linux, elementary os, eos, ubuntu",
+    "date": "2017-09-09 12:45:00 +0300",
+    "content": "How to turn of background color with ls"
+  },
+  {
+    "title": "Linux Dosya Sistemi",
+    "url": "/posts/linux-dosya-sistemi/",
+    "categories": "Teknoloji, Linux",
+    "tags": "linux dosya sistemi, linux, ubuntu, dosya sistemleri, ext2, ext3, selim talha çağlar",
+    "date": "2017-08-24 11:38:00 +0300",
+    "content": "Linux Dosya Sistemi hakkında kısa bilgilendirme .."
+  },
+  {
+    "title": "Failed to Start Load Kernel Modules Hatasının Çözümü",
+    "url": "/posts/failed-to-start-load-kernel-modules-solved/",
+    "categories": "Satranç",
+    "tags": "fix kernel failed to start, failed start, Failed to Start Load Kernel Modules, kernel modules",
+    "date": "2017-05-29 22:37:00 +0300",
+    "content": "Linux&#39;ta Failed to Start Load Kernel Modules Hatasının Çözümü"
+  }
+  
 ]
+

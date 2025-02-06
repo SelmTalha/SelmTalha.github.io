@@ -30,23 +30,28 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="STCDIGITAL" />
+<meta property="og:title" content="Linux /etc/apt/sources.list.d/ Hatasının Kesin Çözümü" />
+<meta name="author" content="Selim Talha Çağlar" />
 <meta property="og:locale" content="tr" />
-<meta name="description" content="Yazılım geliştiricisi, programcı ve fotoğrafçı olarak projelerimi ve çalışmalarımı paylaştığım minimalist, etkileyici bir portfolyo ve blog sayfası. 🚀📸💻" />
-<meta property="og:description" content="Yazılım geliştiricisi, programcı ve fotoğrafçı olarak projelerimi ve çalışmalarımı paylaştığım minimalist, etkileyici bir portfolyo ve blog sayfası. 🚀📸💻" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<meta name="description" content="Linux /etc/apt/sources.list.d/ hatası kesin çözümü" />
+<meta property="og:description" content="Linux /etc/apt/sources.list.d/ hatası kesin çözümü" />
+<link rel="canonical" href="http://localhost:4000/posts/linux-sources-list-d-hatasi/" />
+<meta property="og:url" content="http://localhost:4000/posts/linux-sources-list-d-hatasi/" />
 <meta property="og:site_name" content="STCDIGITAL" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="STCDIGITAL" />
+<meta property="og:image" content="http://localhost:4000/assets/blog/terminalbackls3.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-05-29T03:27:00+03:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/blog/terminalbackls3.jpg" />
+<meta property="twitter:title" content="Linux /etc/apt/sources.list.d/ Hatasının Kesin Çözümü" />
 <meta name="twitter:site" content="@twitter_username" />
+<meta name="twitter:creator" content="@Selim Talha Çağlar" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Yazılım geliştiricisi, programcı ve fotoğrafçı olarak projelerimi ve çalışmalarımı paylaştığım minimalist, etkileyici bir portfolyo ve blog sayfası. 🚀📸💻","headline":"STCDIGITAL","name":"Selim Talha Çağlar","sameAs":["https://twitter.com/username","https://github.com/username"],"url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Selim Talha Çağlar","url":"https://instagram.com/selimtlh"},"dateModified":"2018-05-29T03:27:00+03:00","datePublished":"2018-05-29T03:27:00+03:00","description":"Linux /etc/apt/sources.list.d/ hatası kesin çözümü","headline":"Linux /etc/apt/sources.list.d/ Hatasının Kesin Çözümü","image":"http://localhost:4000/assets/blog/terminalbackls3.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/linux-sources-list-d-hatasi/"},"url":"http://localhost:4000/posts/linux-sources-list-d-hatasi/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>STCDIGITAL
+  <title>Linux /etc/apt/sources.list.d/ Hatasının Kesin Çözümü | STCDIGITAL
   </title>
 
   <!--
@@ -110,11 +115,16 @@
   <!-- 3rd-party Dependencies -->
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.32.2/dist/tocbot.min.css">
+  
 
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
   
 
+  
+    <!-- Image Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
   <!-- Scripts -->
@@ -133,6 +143,9 @@
   
 
   
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
 
 
 
@@ -190,9 +203,23 @@
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
 
 
 
@@ -200,11 +227,15 @@
 
 
 
-<script defer src="/assets/js/dist/home.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
 <!-- Pageviews -->
+
+  
+
+  
 
 
 
@@ -230,7 +261,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a href="/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>ANASAYFA</span>
@@ -509,9 +540,23 @@
       
 
       
-        <!-- index page -->
-        <span>Anasayfa</span>
+        
+          
+            <span>
+              <a href="/">Anasayfa</a>
+            </span>
 
+          
+        
+          
+        
+          
+            
+              <span>Linux /etc/apt/sources.list.d/ Hatasının Kesin Çözümü</span>
+            
+
+          
+        
       
     </nav>
     <!-- endof #breadcrumb -->
@@ -521,7 +566,7 @@
     </button>
 
     <div id="topbar-title">
-      STCDIGITAL
+      Gönderi
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link">
@@ -613,48 +658,13 @@
 
       
     
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
       
 
       
       
+      
 
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
+      
     
       
 
@@ -689,366 +699,16 @@
     
 
     
-      <!-- create the image wrapper -->
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
       
 
       
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
+        <!-- create the image wrapper -->
+        
 
+        
+        
       
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
     
 
     <!-- combine -->
@@ -1087,6 +747,93 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
 
 
@@ -1101,340 +848,19 @@
 
 
 
-<!-- Get pinned posts on current page -->
 
-
-
-
-
-
-<!-- Get normal posts on current page -->
-
-
-
-
-
-<div id="post-list" class="flex-grow-1 px-xl-1">
-  
-    <article class="card-wrapper card">
-      <a href="/posts/buyuk-ustalarla-satranc-deneyimlerim/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/selimtalhacaglar_chess.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Büyük Ustalarla Satranç Deneyimlerim</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Pandemi Döneminde büyük ustalarla oynadığım oyunlar ve analizlerim</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1619707020"
-  data-df="ll"
-  
->
-  Apr 29, 2021
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Satranç
-                  </span>
-                
-              </div>
-
-              
-                <div class="pin ms-1">
-                  <i class="fas fa-thumbtack fa-fw"></i>
-                  <span></span>
-                </div>
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/blackburne-izinden/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/selimtalhacaglar_blackburne.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Blackburne'ün izinden</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Oynarken keyif aldığım fedalı oyunlarım  vol-1 ...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1587934860"
-  data-df="ll"
-  
->
-  Apr 27, 2020
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Satranç
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/satrancta-olasilik/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/pawnrespect2.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Satrançta olasılık</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Satranç&#39;ta her hamle başına nasıl olasılık hesabı yapılıyor ? ... Shannon Sayısı nedir ?</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1582966620"
-  data-df="ll"
-  
->
-  Feb 29, 2020
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Satranç
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/blackburne-silin-gambiti/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/blackburne.png" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Blackburne Şilin Gambiti</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Joseph Henry Blackburne, 10 Aralık 1841’de Manchester, İngiltere’de doğdu. Genç yaşlarda dama oyununda ustalaştı, ancak 1858’de Paul Morphy’nin Avrupa’daki başarılarından etkilenerek satranca yönel...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1582734180"
-  data-df="ll"
-  
->
-  Feb 26, 2020
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Satranç
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/linux-sources-list-d-hatasi/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/terminalbackls3.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Linux /etc/apt/sources.list.d/ Hatasının Kesin Çözümü</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Linux /etc/apt/sources.list.d/ hatası kesin çözümü</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
+<article class="px-1" data-toc="false">
+  <header>
+    <h1 data-toc-skip>Linux /etc/apt/sources.list.d/ Hatasının Kesin Çözümü</h1>
+    
+      <p class="post-desc fw-light mb-4">Linux /etc/apt/sources.list.d/ hatası kesin çözümü</p>
+    
+
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Yayımlandı
+        <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -1447,247 +873,237 @@
   data-ts="1527553620"
   data-df="ll"
   
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
 >
   May 29, 2018
 </time>
 
+      </span>
 
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Teknoloji,
-                      Linux
-                  </span>
-                
-              </div>
+      <!-- lastmod date -->
+      
 
+      
+        
+        
+        
+
+        
+
+        <div class="mt-3 mb-3">
+          <a href="/assets/blog/terminalbackls3.jpg" class="popup img-link preview-img shimmer"><img src="/assets/blog/terminalbackls3.jpg"  alt="Preview Image" width="1200" height="630"  loading="lazy"></a></div>
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
+
+          Tarafından
+
+          <em>
+            
               
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/terminal-yazi-rengi-degistirme/" class="post-preview row g-0 flex-md-row-reverse">
-        
+                <a href="https://instagram.com/selimtlh">Selim Talha Çağlar</a>
+                
+              
+            
+          </em>
+        </span>
 
-        
-          
+        <div>
+          <!-- pageviews -->
           
 
-          
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
 
-          
 
-          
 
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/terminalbackls6.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Terminal Yazı Rengi Değiştirme -!</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>How to turn of background color with ls</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
+<!-- words per minute -->
 
 
 
 
-<time
-  
-  data-ts="1504950300"
-  data-df="ll"
-  
+
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="187 kelimeler"
 >
-  Sep  9, 2017
-</time>
+  <em>1 dakika</em> oku</span>
 
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Teknoloji,
-                      Linux
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
         </div>
+      </div>
+    </div>
+  </header>
+
+  
+
+  <div class="content">
+    <h5 id="windowsubuntu-mint-ardından-4işletim-sistemi-olarak-eosa-geçiş-yaptığım-şu-zamanlarda-hala-hata-ayıklamaları-ve-konsola-alışmakla-uğraşıyorumdaha-öncesinde-ubuntu-kullanmış-olsamda-uzun-süre-ayrı-kalmam-sıfırdan-başlamamı-gerektirdibu-süreçte-öğrendiklerimi-paylaşarak-hem-kendime-ileride-dönüp-bakabileceğim-notlar-hemde-yeni-linux-kullanıcılarının-terminallerde-sıklıkla-karşılaştığı-hatalara-çözüm-sunmaya-çalışacağım"><span class="me-2">Windows,Ubuntu ,Mint ardından 4.işletim sistemi olarak eOs’a geçiş yaptığım şu zamanlarda hala hata ayıklamaları ve konsola alışmakla uğraşıyorum.Daha öncesinde ubuntu kullanmış olsamda uzun süre ayrı kalmam sıfırdan başlamamı gerektirdi.Bu süreçte öğrendiklerimi paylaşarak hem kendime ileride dönüp bakabileceğim notlar hemde yeni linux kullanıcılarının terminallerde sıklıkla karşılaştığı hatalara çözüm sunmaya çalışacağım.</span><a href="#windowsubuntu-mint-ardından-4işletim-sistemi-olarak-eosa-geçiş-yaptığım-şu-zamanlarda-hala-hata-ayıklamaları-ve-konsola-alışmakla-uğraşıyorumdaha-öncesinde-ubuntu-kullanmış-olsamda-uzun-süre-ayrı-kalmam-sıfırdan-başlamamı-gerektirdibu-süreçte-öğrendiklerimi-paylaşarak-hem-kendime-ileride-dönüp-bakabileceğim-notlar-hemde-yeni-linux-kullanıcılarının-terminallerde-sıklıkla-karşılaştığı-hatalara-çözüm-sunmaya-çalışacağım" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update </code></p>
+
+<h5 id="komutu-sonrasında-aldığım-ubuntudan-hatırladığım-bir-hatanın-sonunda-kesin-bir-çözümünü-buldum-hata-çıktısı-şu-şekildedir"><span class="me-2">komutu sonrasında aldığım ubuntudan hatırladığım bir hatanın ,sonunda kesin bir çözümünü buldum. Hata çıktısı şu şekildedir:</span><a href="#komutu-sonrasında-aldığım-ubuntudan-hatırladığım-bir-hatanın-sonunda-kesin-bir-çözümünü-buldum-hata-çıktısı-şu-şekildedir" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
+
+<p><code class="language-plaintext highlighter-rouge">N: Geçersiz bir dosya adı uzantısına sahip olduğu için '/etc/apt/sources.list.d/' dizinindeki 'THE_PPA.list.save' dosyası yok sayılıyor.</code></p>
+
+<h5 id="bu-hata-ne-kadar-çok-ppa-yüklerseniz-o-kadar-göze-çarpan-bir-sorun-haline-gelebiliyordizine-dosya-kaydetmeyi-yok-saymanızı-istiyoraksi-halde-save-dosyalarını-etcaptsourceslistd-adresinden-manuel-olarak-kaldırana-kadar-bu-ppadan-hiçbir-şey-yükleyemezsiniz"><span class="me-2">bu hata ne kadar çok ppa yüklerseniz o kadar göze çarpan bir sorun haline gelebiliyor.Dizine dosya kaydetmeyi yok saymanızı istiyor.Aksi halde .save dosyalarını /etc/apt/sources.list.d/ adresinden manuel olarak kaldırana kadar bu PPA’dan hiçbir şey yükleyemezsiniz.</span><a href="#bu-hata-ne-kadar-çok-ppa-yüklerseniz-o-kadar-göze-çarpan-bir-sorun-haline-gelebiliyordizine-dosya-kaydetmeyi-yok-saymanızı-istiyoraksi-halde-save-dosyalarını-etcaptsourceslistd-adresinden-manuel-olarak-kaldırana-kadar-bu-ppadan-hiçbir-şey-yükleyemezsiniz" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
+
+<h5 id="ubuntu-kullandığım-zamanlarda-bu-sorunu-şu-komut-ile-düzeltmeye-çalışmıştım"><span class="me-2">Ubuntu kullandığım zamanlarda bu sorunu şu komut ile düzeltmeye çalışmıştım.</span><a href="#ubuntu-kullandığım-zamanlarda-bu-sorunu-şu-komut-ile-düzeltmeye-çalışmıştım" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
+
+<p>` sudo rm -r /etc/apt/sources.list.d/*.save`</p>
+
+<h5 id="ancak-bu-işlem-sürekli-tekrar-gerektiren-bir-işlemher-ppa-yüklediğinizde-daha-çok-hata-ile-yeniden-karşınıza-gelince-biraz-can-sıkıyorbu-son-bulduğum-komut-ile-bu-sorundan-ilelebet-kurtulabilirsiniz"><span class="me-2">Ancak bu işlem sürekli tekrar gerektiren bir işlem.Her ppa yüklediğinizde daha çok hata ile yeniden karşınıza gelince biraz can sıkıyor.Bu son bulduğum komut ile bu sorundan ilelebet kurtulabilirsiniz.</span><a href="#ancak-bu-işlem-sürekli-tekrar-gerektiren-bir-işlemher-ppa-yüklediğinizde-daha-çok-hata-ile-yeniden-karşınıza-gelince-biraz-can-sıkıyorbu-son-bulduğum-komut-ile-bu-sorundan-ilelebet-kurtulabilirsiniz" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
+
+<div class="table-wrapper"><table>
+  <tbody>
+    <tr>
+      <td>` echo “Dir::Ignore-Files-Silently:: "(.save</td>
+      <td>.distUpgrade)$";”</td>
+      <td>sudo tee /etc/apt/apt.conf.d/99ignoresave`</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<h5 id="bilgisayarı-yeniden-başlatınız-yada-sistemin-kendini-yenilemesi-için-oturumdan-çıkış-yapıp-yeniden-giriniz"><span class="me-2">Bilgisayarı yeniden başlatınız yada sistemin kendini yenilemesi için oturumdan çıkış yapıp yeniden giriniz.</span><a href="#bilgisayarı-yeniden-başlatınız-yada-sistemin-kendini-yenilemesi-için-oturumdan-çıkış-yapıp-yeniden-giriniz" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
+
+<h5 id="umarım-sorununuza-yardımcı-olabilmişimdirsağlıcakla-kalın-"><span class="me-2">Umarım sorununuza yardımcı olabilmişimdir.Sağlıcakla kalın ..</span><a href="#umarım-sorununuza-yardımcı-olabilmişimdirsağlıcakla-kalın-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
+
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/categories/teknoloji/">Teknoloji</a>,
+          <a href="/categories/linux/">Linux</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/tags/linux/"
+            class="post-tag no-text-decoration"
+          >linux</a>
+        
+          <a
+            href="/tags/terminal-hatalar%C4%B1/"
+            class="post-tag no-text-decoration"
+          >terminal hataları</a>
+        
+          <a
+            href="/tags/terminal/"
+            class="post-tag no-text-decoration"
+          >terminal</a>
+        
+          <a
+            href="/tags/sources-list-d-hatas%C4%B1/"
+            class="post-tag no-text-decoration"
+          >sources.list.d/ hatası</a>
+        
+      </div>
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          Bu yazı Selim Talha Çağlar tarafından 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         ile lisanslanmıştır.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Paylaş</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+
+      
+
+      <a href="https://twitter.com/intent/tweet?text=Linux%20/etc/apt/sources.list.d/%20Hatas%C4%B1n%C4%B1n%20Kesin%20%C3%87%C3%B6z%C3%BCm%C3%BC%20-%20STCDIGITAL&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Flinux-sources-list-d-hatasi%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/linux-dosya-sistemi/" class="post-preview row g-0 flex-md-row-reverse">
-        
+    
 
-        
-          
-          
+      
 
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/terminalbackls2.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Linux Dosya Sistemi</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Linux Dosya Sistemi hakkında kısa bilgilendirme ..</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1503563880"
-  data-df="ll"
-  
->
-  Aug 24, 2017
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Teknoloji,
-                      Linux
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Linux%20/etc/apt/sources.list.d/%20Hatas%C4%B1n%C4%B1n%20Kesin%20%C3%87%C3%B6z%C3%BCm%C3%BC%20-%20STCDIGITAL&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Flinux-sources-list-d-hatasi%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
       </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/failed-to-start-load-kernel-modules-solved/" class="post-preview row g-0 flex-md-row-reverse">
-        
+    
 
-        
-          
-          
+      
 
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/blog/terminalbackls.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Failed to Start Load Kernel Modules Hatasının Çözümü</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Linux&#39;ta Failed to Start Load Kernel Modules Hatasının Çözümü</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1496086620"
-  data-df="ll"
-  
->
-  May 29, 2017
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Satranç
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Flinux-sources-list-d-hatasi%2F&text=Linux%20/etc/apt/sources.list.d/%20Hatas%C4%B1n%C4%B1n%20Kesin%20%C3%87%C3%B6z%C3%BCm%C3%BC%20-%20STCDIGITAL" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
       </a>
-    </article>
-  
+    
+
+      
+
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Flinux-sources-list-d-hatasi%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin" aria-label="Linkedin">
+        <i class="fa-fw fab fa-linkedin"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Flinux-sources-list-d-hatasi%2F&title=Linux%20/etc/apt/sources.list.d/%20Hatas%C4%B1n%C4%B1n%20Kesin%20%C3%87%C3%B6z%C3%BCm%C3%BC%20-%20STCDIGITAL" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Reddit" aria-label="Reddit">
+        <i class="fa-fw fa-brands fa-square-reddit"></i>
+      </a>
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Bağlantıyı kopyala"
+      data-title-succeed="Bağlantı kopyalama başarılı!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
 </div>
-<!-- #post-list -->
 
-
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
+</article>
 
 
             
@@ -2910,12 +2326,180 @@
             </div>
 
             
+              
+              
+
+
+
+
+
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">Daha Fazla Okuma</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/terminal-yazi-rengi-degistirme/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1504950300"
+  data-df="ll"
+  
+>
+  Sep  9, 2017
+</time>
+
+              <h4 class="pt-0 my-2">Terminal Yazı Rengi Değiştirme -!</h4>
+              <div class="text-muted">
+                <p>How to turn of background color with ls</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/linux-dosya-sistemi/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1503563880"
+  data-df="ll"
+  
+>
+  Aug 24, 2017
+</time>
+
+              <h4 class="pt-0 my-2">Linux Dosya Sistemi</h4>
+              <div class="text-muted">
+                <p>Linux Dosya Sistemi hakkında kısa bilgilendirme ..</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <a
+      href="/posts/terminal-yazi-rengi-degistirme/"
+      class="btn btn-outline-primary"
+      aria-label="Geri"
+    >
+      <p>Terminal Yazı Rengi Değiştirme -!</p>
+    </a>
+  
+
+  
+    <a
+      href="/posts/seltcraft-tanitim/"
+      class="btn btn-outline-primary"
+      aria-label="İleri"
+    >
+      <p>🎮 SelTCraft Tanıtımı</p>
+    </a>
+  
+</nav>
+
             
 
             <!-- The Footer -->
@@ -4150,6 +3734,11 @@
     
 
     <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
 
     
 
