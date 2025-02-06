@@ -1,0 +1,143 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>STCDIGITAL</title>
+  <subtitle>Yazılım geliştiricisi, programcı ve fotoğrafçı olarak projelerimi ve çalışmalarımı paylaştığım minimalist, etkileyici bir portfolyo ve blog sayfası. 🚀📸💻</subtitle>
+  <updated>2025-02-06T20:26:56+03:00</updated>
+  <author>
+    <name>Selim Talha Çağlar</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="tr"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Selim Talha Çağlar </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Büyük Ustalarla Satranç Deneyimlerim</title>
+    <link href="http://localhost:4000/posts/buyuk-ustalarla-satranc-deneyimlerim/" rel="alternate" type="text/html" title="Büyük Ustalarla Satranç Deneyimlerim" />
+    <published>2021-04-29T17:37:00+03:00</published>
+  
+    <updated>2021-04-29T17:37:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/buyuk-ustalarla-satranc-deneyimlerim/</id>
+    <content type="text/html" src="http://localhost:4000/posts/buyuk-ustalarla-satranc-deneyimlerim/" />
+    <author>
+      <name>SelmTalha</name>
+    </author>
+
+  
+    
+    <category term="Satranç" />
+    
+  
+
+  <summary>Pandemi Döneminde büyük ustalarla oynadığım oyunlar ve analizlerim</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Blackburne'ün izinden</title>
+    <link href="http://localhost:4000/posts/blackburne-izinden/" rel="alternate" type="text/html" title="Blackburne&amp;apos;ün izinden" />
+    <published>2020-04-27T00:01:00+03:00</published>
+  
+    <updated>2020-04-27T00:01:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/blackburne-izinden/</id>
+    <content type="text/html" src="http://localhost:4000/posts/blackburne-izinden/" />
+    <author>
+      <name>SelmTalha</name>
+    </author>
+
+  
+    
+    <category term="Satranç" />
+    
+  
+
+  <summary>Oynarken keyif aldığım fedalı oyunlarım  vol-1 ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Satrançta olasılık</title>
+    <link href="http://localhost:4000/posts/satrancta-olasilik/" rel="alternate" type="text/html" title="Satrançta olasılık" />
+    <published>2020-02-29T11:57:00+03:00</published>
+  
+    <updated>2020-02-29T11:57:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/satrancta-olasilik/</id>
+    <content type="text/html" src="http://localhost:4000/posts/satrancta-olasilik/" />
+    <author>
+      <name>SelmTalha</name>
+    </author>
+
+  
+    
+    <category term="Satranç" />
+    
+  
+
+  <summary>Satranç&amp;#39;ta her hamle başına nasıl olasılık hesabı yapılıyor ? ... Shannon Sayısı nedir ?</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Blackburne Şilin Gambiti</title>
+    <link href="http://localhost:4000/posts/blackburne-silin-gambiti/" rel="alternate" type="text/html" title="Blackburne Şilin Gambiti" />
+    <published>2020-02-26T19:23:00+03:00</published>
+  
+    <updated>2020-02-26T19:23:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/blackburne-silin-gambiti/</id>
+    <content type="text/html" src="http://localhost:4000/posts/blackburne-silin-gambiti/" />
+    <author>
+      <name>SelmTalha</name>
+    </author>
+
+  
+    
+    <category term="Satranç" />
+    
+  
+
+  <summary>Joseph Henry Blackburne, 10 Aralık 1841’de Manchester, İngiltere’de doğdu. Genç yaşlarda dama oyununda ustalaştı, ancak 1858’de Paul Morphy’nin Avrupa’daki başarılarından etkilenerek satranca yöneldi. Satranç öğrenmeye 17-18 yaşlarında başlamasına rağmen, hızla ilerleyerek 1861’de Manchester Satranç Kulübü’ne katıldı ve kısa sürede kulübün şampiyonu oldu. Kariyeri boyunca İngiliz satrancının ön...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>📚 Kütüphane Projesi</title>
+    <link href="http://localhost:4000/posts/python-kutuphane-projesi/" rel="alternate" type="text/html" title="📚 Kütüphane Projesi" />
+    <published>2018-09-23T22:10:00+03:00</published>
+  
+    <updated>2018-09-23T22:10:00+03:00</updated>
+  
+    <id>http://localhost:4000/posts/python-kutuphane-projesi/</id>
+    <content type="text/html" src="http://localhost:4000/posts/python-kutuphane-projesi/" />
+    <author>
+      <name>SelmTalha</name>
+    </author>
+
+  
+    
+    <category term="Projelerim" />
+    
+  
+
+  <summary>Vize Proje Ödevim: Kütüphane projesi</summary>
+
+  </entry>
+
+</feed>
+
+
