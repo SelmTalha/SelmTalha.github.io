@@ -1,0 +1,91 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Post
+  category: Kategori
+  tag: Etiket
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Anasayfa
+  categories: Bloglarım
+  tags: Etiketler
+  archives: Arşivler
+  about: Hakkımda
+
+# the text displayed in the search bar & search results
+search:
+  hint: Arama Yap
+  cancel: Cancel
+  no_results: UPPS! Arama Sonucu Bulunamadı.
+
+panel:
+  lastmod: Son Güncellenenler
+  trending_tags: Trend Etiketler
+  toc: İçerikler
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: Bu yazı Selim Talha Çağlar tarafından :LICENSE_NAME ile lisanslanmıştır.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Some rights reserved.
+  verbose: >-
+    Except where otherwise noted, the blog posts on this site are licensed
+    under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
+
+meta: Using the :THEME theme for :PLATFORM.
+
+not_found:
+  statement: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
+
+notification:
+  update_found: A new version of content is available.
+  update: Update
+
+# ----- Posts related labels -----
+
+post:
+  written_by: Tarafından
+  posted: Yayımlandı
+  updated: Güncellendi
+  words: kelimeler
+  pageview_measure: görüntüleme
+  read_time:
+    unit: dakika
+    prompt: oku
+  relate_posts: Daha Fazla Okuma
+  share: Paylaş
+  button:
+    next: İleri
+    previous: Geri
+    copy_code:
+      succeed: Kopyalandı!
+    share_link:
+      title: Bağlantıyı kopyala
+      succeed: Bağlantı kopyalama başarılı!
+
+# Date time format.
+# See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
+df:
+  post:
+    strftime: "%b %e, %Y"
+    dayjs: "ll"
+  archives:
+    strftime: "%b"
+    dayjs: "MMM"
+
+# categories page
+categories:
+  category_measure:
+    singular: Kategori
+    plural: Kategoriler
+  post_measure:
+    singular: post
+    plural: postlar

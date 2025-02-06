@@ -1,0 +1,35 @@
+@use '../abstracts/breakpoints' as bp;
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as mx;
+@use '../abstracts/placeholders';
+
+footer {
+  background-color: #172127;
+  padding-left: 20px;
+  border-radius: 0px 20px 0px 20px;
+  height: 50px;
+  border-top: 1px solid var(--main-border-color);
+  margin-bottom: 20px;
+  border: 1px solid;;
+  margin-top:30px;
+
+  a {
+    
+    @extend %text-highlight;
+
+    &:hover {
+      @extend %link-hover;
+    }
+  }
+
+  em {
+    @extend %text-highlight;
+  }
+
+  p {
+    padding-top: 18px;
+    color: #FFFDD0;
+    text-align: center;;
+    margin-top: 0px;
+  }
+}
