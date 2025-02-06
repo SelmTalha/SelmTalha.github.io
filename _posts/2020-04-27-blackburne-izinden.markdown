@@ -3,7 +3,7 @@ title: "Blackburne'ün izinden"
 layout: post
 date: 2020-04-27 00:01
 headerImage: true
-image: /assets/blog/selimtalhacaglar_blackburne.jpg
+image: "/assets/blog/selimtalhacaglar_blackburne.jpg"
 tag: [joseph henry blackburne , feda , satranç , chess,selim talha çağlar]
 category: Satranç
 author: SelmTalha
