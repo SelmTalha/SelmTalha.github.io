@@ -9,7 +9,7 @@ pin: true
 math: true
 mermaid: true
 headerImage: true
-image: "/assets/blog/selimtalhacaglar_chess.jpg"
+image: https://selmtalha.github.io/assets/blog/selimtalhacaglar_chess.jpg
 ---
 <!-- 
 ![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" .w-75 .normal} -->
