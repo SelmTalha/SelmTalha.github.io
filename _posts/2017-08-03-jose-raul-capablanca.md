@@ -9,7 +9,7 @@ pin: true
 math: true
 mermaid: true
 headerImage: true
-image: https://selmtalha.github.io//assets/blog/capablanca.png
+image: "/assets/blog/capablanca.png"
 ---
 
 
